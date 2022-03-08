@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    restart: unless-stopped
+    env_file: ./.env
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=$DB_USER
+      - MONGO_INITDB_ROOT_PASSWORD=$DB_PASSWORD
+    ports:
+      - $MONGO_LOCAL_PORT:$MONGO_DOCKER_PORT
+    volumes:
+      - db:/data/db
+  web:
+    ports:
+      - 4001:4001
+    image: musala/gateway:1.0.0
+    depends_on:
+      - mongodb

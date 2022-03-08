@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "6226e9a023ea208ce9b5147a"
+  },
+  "gatewayId": 8,
+  "deviceId": 84,
+  "deviceUID": "e1e9f3c8-f5f9-4629-82a8-42d7fdf37af1",
+  "vendor": "TP-LINK ROUTER",
+  "dateCreated": {
+    "$date": "2022-03-08T05:29:04.022Z"
+  },
+  "status": "offline"
+}]

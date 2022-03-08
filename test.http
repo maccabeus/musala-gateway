@@ -1,0 +1,12 @@
+
+# DELETE http://localhost:4001/api/v1/devices/delete/22/device/12  HTTP/1.1
+POST http://localhost:4001/api/v1/devices/4  HTTP/1.1
+# POST http://localhost:4001/api/v1/gateway/ HTTP/1.1
+content-type: application/json
+
+{
+    "serialNumber": "myud990tt0099te7ss89867555909998ss77",
+    "gatewayName": "Test Gateway",
+    "ip": "125.42.150.37",
+    "vendor": "FLASH SECONDS"
+}

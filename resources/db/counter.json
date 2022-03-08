@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "62241a5b63a5f06ec72896f3"
+  },
+  "table": "gateways",
+  "counter": 14
+},{
+  "_id": {
+    "$oid": "62241b6963a5f06ec72897cc"
+  },
+  "table": "devices",
+  "counter": 131
+}]
